@@ -30,7 +30,7 @@ export const createSnippet = mutation({
     return snippetId;
   },
 });
-/*
+
 export const deleteSnippet = mutation({
   args: {
     snippetId: v.id("snippets"),
@@ -224,5 +224,3 @@ export const getStarredSnippets = query({
     return snippets.filter((snippet) => snippet !== null);
   },
 });
-
-*/
